@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+li{
+    background-color: rgb(32, 32, 32);
+    margin: 50px;
+    text-align: center;
+    max-width: 250px;
+    max-height: 300px;
+    border-radius: 15px;
+    list-style: none;
+}
+img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 0 0 15px 15px;
+}
+#numPage{
+    height: 20px;
+    padding: 5px;
+}
+#btnRecherchez{
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+#research{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+}
